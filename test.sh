@@ -21,3 +21,10 @@ for i in {41..60}; do
 done
 echo -en 'travis_fold:end:cherry\r'
 
+echo -en 'travis_fold:start:cherry\r'
+echo 'CHERRY 2'
+for i in {61..80}; do
+	echo $i
+done
+echo -en 'travis_fold:end:cherry\r'
+
