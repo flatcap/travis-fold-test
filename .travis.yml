@@ -1,0 +1,12 @@
+notifications:
+  email: false
+
+sudo: false
+dist: trusty
+
+language: c
+compiler: gcc
+
+script:
+  - ./test.sh
+
