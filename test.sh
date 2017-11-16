@@ -28,5 +28,5 @@ for i in {61..80}; do
 done
 echo -en 'travis_fold:end:cherry\r'
 
-echo hello 2> /dev/null
+echo `echo hello | dd 2> /dev/null`
 
